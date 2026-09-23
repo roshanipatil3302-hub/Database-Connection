@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLMT Nextgen Technologies LLP</title>
+
+<style>
+
+    *{
+        box-sizing: border-box;
+    }
+
+    body{
+        margin:0;
+        padding:0;
+        text-align:center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:#f1f5f9;
+        color:#2e2e2e;
+        line-height:1.6;
+    }
+
+    header{
+        background-color:#173f5f;
+        color:white;
+        padding:15px 10px;
+    }
+
+    header h1{
+        margin-bottom:10px;
+        font-size:24px;
+    }
+
+    nav{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:5px;
+        background-color:#102a43;
+        padding:16px;
+        flex-wrap:wrap;
+    }
+
+    nav a{   
+        color:#e2e6ea;
+        font-size:16px;
+        margin:3px 5px;
+        text-decoration:none;
+        padding:7px 8px;
+    }
+
+    nav a:hover{
+        color:#159a9c;
+    }
+
+    section{
+        width:90%;
+        max-width:1000px;
+        margin:15px auto;
+        padding:20px;
+        border-bottom:1px solid #9bd4de;
+    }
+   
+    h2{
+        font-size:23px;
+        color:#173f6f;
+        margin-bottom:15px;
+    }
+
+    h3{
+        font-size:18px;
+        color:#159a95;
+        margin-top:15px;
+    }
+
+    p{
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .service{
+        background-color:#ebfcfc;
+        padding:10px 20px;
+        margin:auto;
+        border-radius:18px;
+        width:60%;
+        max-width:600px;
+        border:2px solid #2c7a7b;
+    }    
+
+    .contact{
+        background-color:#f1f8f8;
+        padding:25px;
+        margin:auto;
+        border-radius:8px;
+        text-align:left;
+        width:60%;
+        max-width:600px;
+    }
+
+    label{
+        font-weight:bold;
+        color:#102a43;
+    }
+
+    input,
+    textarea{
+        width:100%;
+        padding:10px;
+        border:1px solid #cbd5e1;
+        border-radius:5px;
+        font-family:inherit;
+        font-size:15px;
+    }
+
+    textarea{
+        resize:vertical;
+    }
+
+    button{
+        margin-top:12px;
+        margin-right:8px;
+        background-color:#2c7a7b;
+        color:white;
+        border:none;
+        padding:12px;
+        border-radius:6px;
+        cursor:pointer;
+        font-size:15px;
+        width:100%;
+    }
+
+    button:hover{
+        background-color:#023e44;
+    }
+
+    footer{
+        background-color:#102a43;
+        color:white;
+        text-align:center;
+        padding:15px;
+        margin-top:30px;
+        font-size:14px;
+    }
+
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SLMT Nextgen Technologies LLP</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <!-- Home -->
+
+    <section id="home">
+
+        <h2>Welcome to SLMT Nextgen Technologies</h2>
+
+        <p>
+            Welcome to SLMT Nextgen Technologies LLP.<br>
+            We focus on creating modern and innovative technology solutions for businesses.<br>
+            We help businesses use technology to improve their performance,
+            productivity and digital presence.
+        </p> 
+      
+    </section>
+ 
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About SLMT Technology</h2>
+
+        <p>
+            SLMT Nextgen Technologies company focused on
+            developing modern and reliable software solutions.<br>
+            Learn more about our mission, vision, and the team behind our success.
+        </p>
+
+    </section>
+   
+    <!-- Services -->
+
+    <section id="services">
+
+        <h2>Our Services</h2>
+
+        <div class="service">
+            <h3>Website Development</h3>
+            <h3>Software Development</h3>
+            <h3>Android Application Development</h3>
+            <h3>Cloud Solutions</h3>
+        </div>
+
+    </section>
+ 
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        
+<form class="contact" action="index.php" method="POST">
+
+    <label for="name">Your Name :</label>
+    <input id="name" name="name" type="text" placeholder="Enter Name">
+    <br><br>
+
+    <label for="email">Your Email :</label>
+    <input id="email" name="email" type="email" placeholder="Enter Email">
+    <br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input id="mob_no" name="mob_no" type="tel" placeholder="Enter Mobile Number">
+<br><br>
+
+    <label for="subject">Subject :</label>
+    <input id="subject" name="subject" type="text" placeholder="Enter Subject">
+    <br><br>
+
+    <label for="msg">Your Message :</label>
+<textarea id="msg" name="msg" placeholder="Enter Message" rows="4"></textarea>    <br><br>
+    
+
+    <button type="submit">Send Message</button>
+    <br>
+
+    <h3>Email: info@slmttechnology.com</h3>
+    <h3>Phone: +91 9422968204</h3>
+    <h3>Address: Shirpur, Maharashtra, India</h3>
+
+</form>
+
+    </section>
+    
+    <!-- Footer -->
+
+    <footer>
+        <p>
+            &copy; 2026 SLMT Technologies Pvt. Ltd. | All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
